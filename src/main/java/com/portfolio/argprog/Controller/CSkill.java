@@ -15,7 +15,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @RequestMapping("/skill")
-@CrossOrigin(origins = "https://portfolio-ap-b079f.web.app")
+@CrossOrigin(origins = "**")
 public class CSkill {
     @Autowired
     ISkill iSkill;
