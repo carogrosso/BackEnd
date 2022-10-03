@@ -40,10 +40,10 @@ public class CEstudio {
 //        return "La experiencia fue eliminada";
     }
     
-    @GetMapping("/traer")
-    public Estudio findEstudio(){
-        return iEstudio.findEstudio((long)1);
-    }
+//    @GetMapping("/traer")
+//    public Estudio findEstudio(){
+//        return iEstudio.findEstudio((long)1);
+//    }
     
     @GetMapping("/detail/{id}")
     public ResponseEntity<Estudio> getById(@PathVariable("id") Long id){
