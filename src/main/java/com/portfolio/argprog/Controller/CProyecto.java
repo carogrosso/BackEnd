@@ -15,7 +15,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @RequestMapping("/proyecto")
-@CrossOrigin(origins = "**")
+@CrossOrigin(origins = "https://portfolio-ap-b079f.firebaseapp.com")
 public class CProyecto {
     @Autowired
     IProyecto iProyecto;
