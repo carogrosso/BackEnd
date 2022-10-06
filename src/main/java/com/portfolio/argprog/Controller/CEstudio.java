@@ -18,7 +18,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @RequestMapping("/estudio")
-@CrossOrigin(origins = "https://portfolio-ap-b079f.web.app")
+@CrossOrigin
 public class CEstudio {
     @Autowired
     IEstudio iEstudio;
